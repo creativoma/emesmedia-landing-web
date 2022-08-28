@@ -96,6 +96,10 @@ section#partners {
                     width: 250px
                 }
 
+                @media screen and (max-width: 550px) {
+                    filter: saturate(1);
+                }
+
                 &:hover {
                     transform: scale(1.1);
                     filter: saturate(1);
