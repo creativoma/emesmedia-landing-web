@@ -1,0 +1,129 @@
+section#about {
+    background-color: var(--color-tertiary);
+    padding: 80px;
+
+    // Breakpoint for responsive design
+    @media screen and (max-width: 550px) {
+        padding: 60px 40px;
+    }
+    
+    & div.container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+
+        & div.block-one {
+            display: flex;
+            column-gap: 30px;
+            width: 100%;
+            transition: all;
+
+            // Breakpoint for responsive design
+            @media screen and (max-width: 850px) {
+                flex-direction: column;
+                row-gap: 30px;
+            }
+
+            & img {
+                min-width: 250px;
+                max-width: 450px;
+                height: auto;
+                border: 1px solid var(--color-black);
+                border-radius: 20px;
+                transition: all 200ms ease;
+
+                // Breakpoint for responsive design
+                @media screen and (max-width: 850px) {
+                    max-width: 100%;
+                }
+            }
+
+            & div.content-data {
+                border: 1px solid var(--color-black);
+                border-radius: 20px;
+                width: 80%;
+                background: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 30px 60px;
+                transition: all 200ms ease;
+
+                // Breakpoint for responsive design
+                @media screen and (max-width: 1100px) {
+                    padding: 20px 40px;
+                    width: 100%;
+                }
+                
+                & h3 {
+                    color: var(--color-primary);
+                    font-size: 10rem;
+                    font-weight: 500;
+                    font-family: var(--font-primary);
+                    text-transform: uppercase;
+                    line-height: 1;
+                    transition: all 200ms ease;
+
+                    // Breakpoint for responsive design
+                    @media screen and (max-width: 1100px) {
+                        font-size: 8rem;
+                    }
+
+                    & span {
+                        color: var(--color-secondary);
+                    }
+                }
+
+                & p {
+                    font-size: 2.2rem;
+                    font-weight: 500;
+                    font-family: var(--font-secondary);
+                    color: var(--color-black);
+                    transition: all 200ms ease;
+
+                    // Breakpoint for responsive design
+                    @media screen and (max-width: 1100px) {
+                        font-size: 1.9rem;
+                    }
+                }
+            }
+            
+        }
+
+        & div.block-two {
+            border: 1px solid var(--color-black);
+            border-radius: 20px;
+            width: 100%;
+            background: var( --color-secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 60px;
+            padding: 30px 60px;
+            
+            & img {
+                width: 50px;
+                height: auto;
+
+                // Breakpoint for responsive design
+                @media screen and (max-width: 850px) {
+                    display: none;
+                }
+
+                &.one {
+                    transform: rotate(180deg);
+                }
+            }
+
+            & h4 {
+                color: var(--color-quinary);
+                font-size: 3.5rem;
+                text-align: center;
+                font-weight: 500;
+                font-family: var(--font-primary);
+                text-transform: uppercase;
+                line-height: 1;
+            }
+        }
+    }
+}

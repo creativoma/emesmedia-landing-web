@@ -1,0 +1,15 @@
+// Cargando los estilos globales
+@forward '_global.scss';
+
+// Cargando los estilos de los componentes
+@forward 'elements/_header.scss';
+@forward 'elements/_hero.scss';
+@forward 'elements/_about.scss';
+@forward 'elements/_services.scss';
+@forward 'elements/_partners.scss';
+@forward 'elements/_banner.scss';
+@forward 'elements/_contact.scss';
+@forward 'elements/_footer.scss';
+
+// Elementos secundarios
+@forward 'elements/_btn-go-top.scss';

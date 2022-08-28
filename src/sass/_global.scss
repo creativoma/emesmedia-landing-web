@@ -1,0 +1,61 @@
+// Seteando las variables globales
+:root {
+    --color-primary: #D9487D;
+    --color-secondary: #FF7223;
+    --color-tertiary: #D91111;
+    --color-quaternary: #BA3E6B;
+    --color-quinary: #F2D0D9;
+    --color-black: #0E0D0D;
+    --color-white: #F5F5F5;
+
+    --font-primary: 'Bebas Neue', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
+}
+
+// Seteando el documento
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+// Cargando las fuentas utilizadas
+@font-face {
+    font-family: "Bebas Neue";
+    src:    
+        url("../font/bebas-neue/BebasNeue-Regular.ttf") format("truetype-variations");
+    ;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src:
+        url("../font/montserrat/Montserrat-VF.ttf") format("truetype-variations"),
+        url("../font/montserrat/Montserrat-VF.woft2") format("woff2");
+    font-weight: 100 900;
+}
+
+// Seteando algunos valores por defecto del documento
+html{
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    font-size: 62.5%;
+    font-family: var(--font-secondary);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Container General de todo el contenido de la web
+div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
