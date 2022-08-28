@@ -60,20 +60,6 @@ section#contact {
                 @media screen and (max-width: 550px) {
                     width: 100%;
                 }
-
-                &[type="submit"] {
-                    border: 1px solid var(--color-black);
-                    border-radius: 10px;
-                    background-color: var(--color-primary);
-                    color: var(--color-white);
-                    font-size: 1.6rem;
-                    font-weight: 700;
-                    font-family: var(--font-secondary);
-                    padding: 15px 25px;
-                    cursor: pointer;
-                    width: max-content;
-                    margin: 0 auto;
-                }
             }
 
             & textarea {
@@ -100,6 +86,20 @@ section#contact {
                         color: var(--color-secondary);
                     }
                 } 
+            }
+
+            & button {
+                border: 1px solid var(--color-black);
+                border-radius: 10px;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-size: 1.6rem;
+                font-weight: 700;
+                font-family: var(--font-secondary);
+                padding: 15px 25px;
+                cursor: pointer;
+                width: max-content;
+                margin: 0 auto;
             }
         }
     }
