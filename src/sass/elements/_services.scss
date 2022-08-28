@@ -4,7 +4,7 @@ section#services {
 
     // Breakpoint for responsive design
     @media screen and (max-width: 550px) {
-        padding: 60px 40px;
+        padding: 60px 30px;
     }
 
     & div.container {
@@ -154,6 +154,9 @@ section#services {
                         @media screen and (max-width: 1100px) {
                             font-size: 8rem;
                         }
+                        @media screen and (max-width: 550px) {
+                            font-size: 7rem;
+                        }
                     
                         & span {
                             color: var(--color-primary);
@@ -166,6 +169,11 @@ section#services {
                         height: 45px;
                         right: 0;
                         bottom: 20px;
+
+                        // Breakpoint for responsive design
+                        @media screen and (max-width: 550px) {
+                            display: none;
+                        }
                     }
                 }
             }

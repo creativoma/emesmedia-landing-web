@@ -79,6 +79,9 @@ footer {
                     @media screen and (max-width: 750px) {
                         font-size: 6.5rem;
                     }
+                    @media screen and (max-width: 550px) {
+                        font-size: 4.5rem;
+                    }
                 }
             }
         }
@@ -151,6 +154,10 @@ footer {
                             color: var(--color-black);
                             text-decoration: none;
                             transition: all 200ms ease;
+
+                            @media screen and (max-width: 550px) {
+                                font-size: 1.4rem;
+                            }
 
                             &:hover {
                                 color: var(--color-primary);

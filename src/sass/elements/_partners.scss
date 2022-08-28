@@ -43,6 +43,11 @@ section#partners {
                     font-size: 12rem;
                 }
 
+                // Breakpoint for responsive design
+                @media screen and (max-width: 550px) {
+                    font-size: 9rem;
+                }
+
                 &:nth-child(1){
                     color: var(--color-primary);
                 }
