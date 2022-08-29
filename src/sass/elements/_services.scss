@@ -78,13 +78,16 @@ section#services {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
             gap: 30px;
             transition: all 200ms ease;
 
             // Breakpoint for responsive design
             @media screen and (max-width: 950px) {
                 width: 100%;
+
+                &.two {
+                    flex-direction: column-reverse;
+                }
             }
 
             & p.sub-title {
@@ -123,7 +126,7 @@ section#services {
                 border: 1px solid var(--color-black);
                 border-radius: 20px;
                 width: 100%;
-                min-height: 380px;
+                min-height: 375px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
