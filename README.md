@@ -31,12 +31,3 @@
 
 - Ver lo del footer y hacer la marca
 - Hacer los popups de los servicios
-- Hacer la páginas de enviado y no enviado
-- hacer la pagina de 404
-
-
-
-
-
-
-
