@@ -94,6 +94,10 @@ section#hero {
                 right: 330px;
                 background-image: url("../../src/media/img/photo_2.jpg");
 
+                @media screen and (max-width: 550px) {
+                    display: none;
+                }
+
                 & .arrow-icon {
                     position: absolute;
                     bottom: -50px;
