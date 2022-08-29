@@ -26,8 +26,3 @@
 ## Screenshot
 
 ![](./src/media/img/screenshot.png)
-
-
-
-- Ver lo del footer y hacer la marca
-- Hacer los popups de los servicios
