@@ -12,28 +12,28 @@ allBtnCards.forEach(btn => {
 
         if (card.id == "marketing") {
             modal.classList.add("show-modal");
-            modal.id = "marketing";
+            modal.id = "marketing-modal";
             cuerpo.style.overflow = "hidden";
             modal.innerHTML =`
             <h3>Marketing</h3>
             <p>blogs, newsletters, photography and video content creation according to the platforms we are working with.</p>`;
         } else if (card.id == "SEO") {
             modal.classList.add("show-modal");
-            modal.id = "SEO";
+            modal.id = "SEO-modal";
             cuerpo.style.overflow = "hidden";
             modal.innerHTML =`
             <h3>SEO</h3>
             <p>SEO off-page and on-page we can create a good strategy for your business and make it work for you</p>`;
         } else if (card.id == "social-media") {
             modal.classList.add("show-modal");
-            modal.id = "social-media";
+            modal.id = "social-media-modal";
             cuerpo.style.overflow = "hidden";
             modal.innerHTML =`
             <h3>Social Media Management</h3>
             <p>posting commenting, and running the different accounts you may have</p>`;
         }  else if (card.id == "content-creation") {
             modal.classList.add("show-modal");
-            modal.id = "content-creation";
+            modal.id = "content-creation-modal";
             cuerpo.style.overflow = "hidden";
             modal.innerHTML =`
             <h3>Content Creation</h3>

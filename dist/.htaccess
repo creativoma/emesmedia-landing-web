@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . tienda.creativoma.com/index.html [L] 
+
+  <!-- El RewriteRule hay que colocar el dominio completo sin los protocolos, por ejemplo: emesmedia.com/ seguido del index.html
+  quedando así: emesmedia.com/index.html  -->
+  
+  ErrorDocument 404 https://tienda.creativoma.com/404.html
+  <!-- En el ErrorDocument hay que colocar el dominio completo, por ejemplo: https://emesmedia.com/ seguido del 404.html
+  quedando así: https://emesmedia.com/404.html -->
+
+</IfModule>
